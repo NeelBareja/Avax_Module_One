@@ -6,18 +6,18 @@ This is a basic example of a smart contract written in Solidity, a language for 
 
 ## Features
 
-- **Owner Concept:** The contract has an "owner" with special privileges, initially set to the address that creates the contract.
+- **Owner Concept:** The contract has an "admin" with special privileges, initially set to the address that creates the contract.
   
-- **setValue Functionality:** The owner can set a new value, subject to certain conditions.
+- **setValue Functionality:** The admin can set a new value, subject to certain conditions.
 
-- **Security Measures:** The contract includes a modifier (`onlyOwner`) to ensure that only the owner can execute specific functions.
+- **Security Measures:** The contract includes a modifier (`onlyadmin`) to ensure that only the admin can execute specific functions.
 
 - **Error Handling:** The contract uses `require()`, `assert()`, and `revert()` statements to validate inputs and handle unexpected conditions during execution.
 
 ## Usage
 
 1. Open Browser and go to the site https://remix.ethereum.org/
-2. Create a new file with the extension `.sol` and paste the code of `functions_and_error.sol` in the remix browser.
+2. Create a new file with the extension `.sol` and paste the code of `Avax_Module_One.sol` in the remix browser.
 3. Compile the code and deploy.
 
 ## How to Use
